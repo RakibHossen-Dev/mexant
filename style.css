@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    /* background-image: url(image/mario-gogh-VBLHICVh-lI-unsplash.jpg); */
+   
+    /* color: #e9e9e9dd; */
+}
+.logo{
+    font-size: 50px;
+    color: orangered;
+    font-family: cursive;
+   
+} 
+header{
+    background-image:url(image/mario-gogh-VBLHICVh-lI-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+
+h3{
+    color: white;
+    margin-left: 50px;
+    /* margin-top: 10px; */
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    margin-right: 60px;
+}
+li{
+    display: inline-block;
+    margin-top: 40px;
+ 
+    
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 18px;
+    transition: 0.5s;
+    
+}
+
+li a:hover{
+    color: orangered;
+}
+
+.headline{
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+span{
+    color: orangered;
+}
+.line{
+    border-bottom: 5px solid #fff;
+    width:100px ;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top:30px;
+}
+.paragrapg{
+    margin-left:50px ;
+    color: #ffff;
+    margin-top: 30px;
+}
+.btn{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.btn1,.contact{
+    background: rgb(27, 145, 27);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+.btn2{
+    background:orangered;
+    transition: 0.5s;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 6px;
+}
+.btn1:hover,.btn2:hover{
+    background: orange;
+}
+.h30{
+    color: #000;
+}
+#containeer{
+    display: flex;
+    justify-content:center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.containeer_skill{
+   background-color:#e9f5f4;
+   color: #000000;
+   margin:10px 20px ;
+   padding: 20px;
+   box-shadow:0 0 20px 0 #8a8989;
+   border-radius: 8px;
+}
+.containeer_skill i{
+    font-size: 20px;
+    color: rgb(2, 190, 2);
+    /* display: inline-block; */
+}
+ .containeer_skill .h30{
+    margin-top: -20px;
+} 
+.Crypto_paren{
+    background-image: url(image/cover.jpg);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top:50px ;
+}
+.orange{
+    color: orangered;
+    font-weight: 400;
+}
+.green{
+    font-weight: 400;
+    color: seagreen;
+}
+.Crypto_child1{
+    margin-top:55px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.Crypto_child2{
+    margin-top: 58px;
+}
+.about_p{
+    text-align: center;
+    color: orangered;
+    font-size: 14px;
+    margin-top: 40px;
+
+}
+.know_h3{
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about_btn_1{
+   background-color:#e9f5f4;
+   border: none;
+   padding: 10px 20px;
+   box-shadow: 0 0 20px 0 #8a8989;
+   border-radius: 5px;
+   margin-left: 10px;
+   transition: 0.5s;
+}
+.about_btn_1:hover{
+    background: #b5eff3;
+}
+.extra{
+    color: orangered;
+}
+.about_btn{
+    margin-left: 150px;
+
+}
+.project{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.table_item{
+    margin-top: 20px;
+}
+.idea_item{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.idea_btn{
+    margin-top: 20px;
+}
+.please{
+    margin-bottom: 10px;
+    font-family: serif;
+    font-size: 18px;
+}
+.content_table{
+    /* border: 1px solid black; */
+    margin: 25px 0;
+    font-size: 0.9rem;
+    min-width: 500px;
+}
+.content_table thead tr{
+    text-align: left;
+}
+.content_table th,
+.content_table td{
+    padding: 12px 6px;
+}
+.content_table tbody tr{
+    border-bottom: 1px solid #c3e9ff;
+}
+.Contact_section{
+    background-image: url(image/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  
+
+}
+.contact_img{
+
+    margin-top: 55px;
+}
+img{
+    width: 500px;
+    margin-left:50px ;
+    
+}
+/* .Contact_sec1{
+    margin-left: 20px;
+    margin-bottom: 150px;
+} */
+ .Contact_sec2 {
+    width: 500px;
+    margin-right: 20px;
+ }
+ .freedom{
+    margin-top: 20px;
+    font-size: 16px;
+    color: orangered;
+    margin-bottom: 10px;
+ }
+ .Financial{
+    margin-left:2px;
+    margin-bottom: 10px;
+ }
+ label{
+    display: block;
+    color: #ffff;
+    margin-bottom: 10px;
+  
+ }
+ input{
+    width: 80%;
+    background: transparent;
+    padding: 6px;
+    border-radius: 10px;
+    color: orangered;
+    margin-bottom: 10px;
+    /* border: none; */
+    border-color:#fff;
+ }
+ select{
+    width: 80%;
+    background: transparent;
+    color:orangered;
+    padding: 5px;
+    border-radius: 10px;
+ }
+ .cont_btns{
+    margin-top: 10px;
+    display: block;
+ }
+ .Testimonial_p{
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+ }
+ .Testimonial_h3{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+ }
+.Testimonial_Section{
+    margin-bottom: 30px;
+}
+ .Testimonial_parent{
+   border-radius:  0 20px;
+    display: flex;
+    justify-content: space-between;
+    width:80%;
+    background: #c3e9ff;
+    margin: 0 auto;
+    height: 200px;
+
+ }
+
+  .Testimonial_child2 img{
+    width: 200px;
+    height: 200px;
+    /* margin-bottom: 50px; */
+    border-radius: 0 20px;
+ } 
+ .Testimonial_child1{
+    width: 500px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+ }
+ .Testimonial_child1 i{
+    background: seagreen;
+    font-size: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+ .Testimonial_child1_h1{
+    font-size: 20px;
+
+ }
+ .Testimonial_child1_p{
+    color: seagreen;
+ }
+ footer{
+    margin-top: 50px;
+    background: rgb(4, 4, 73);
+    margin-bottom:-50px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+ }
+ .footer_p{
+    /* margin-top: 20px; */
+    padding-top:30px ;
+ }
+ .footer_p_1{
+    /* margin-top: 20px; */
+ }
